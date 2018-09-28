@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_e01c6c379aa34a2ea9c5ef45d490f991 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e01c6c379aa34a2ea9c5ef45d490f991" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e01c6c379aa34a2ea9c5ef45d490f991 = L.map(
+        'map_e01c6c379aa34a2ea9c5ef45d490f991', {
+        center: [28.67, 77.09],
+        zoom: 15,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_f02feed74fa248bfac3b51c36fe40c87 = L.tileLayer(
+        'Mapbox Street',
+        {
+        "attribution": "Mapbox Data Attribution",
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e01c6c379aa34a2ea9c5ef45d490f991);
+    
+            var feature_group_670d5ad7337145219ba4a22862f8733e = L.featureGroup(
+                ).addTo(map_e01c6c379aa34a2ea9c5ef45d490f991);
+        
+    
+        var marker_bf37723fbc834cee96cc375e99ec6b97 = L.marker(
+            [28.674388, 77.087626],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_ea20c2fe24734fa99076f39de3ce8424 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bf37723fbc834cee96cc375e99ec6b97.setIcon(icon_ea20c2fe24734fa99076f39de3ce8424);
+            
+    
+            var popup_e5f7c6e654bb4ed2be97d76b8df280b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8526fb4a29ae4efc920ec7a44469c3e6 = $('<div id="html_8526fb4a29ae4efc920ec7a44469c3e6" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_e5f7c6e654bb4ed2be97d76b8df280b9.setContent(html_8526fb4a29ae4efc920ec7a44469c3e6);
+            
+
+            marker_bf37723fbc834cee96cc375e99ec6b97.bindPopup(popup_e5f7c6e654bb4ed2be97d76b8df280b9)
+            ;
+
+            
+        
+    
+        var marker_305148122ccc47fc91f08745ebca81c9 = L.marker(
+            [28.664372, 77.101573],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_5726b0bcd4d04ffe865b4f95876c45f0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_305148122ccc47fc91f08745ebca81c9.setIcon(icon_5726b0bcd4d04ffe865b4f95876c45f0);
+            
+    
+            var popup_a81c6c769e16469a91c530d9c23e2af4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b013a9b9551459f921672c40efa6795 = $('<div id="html_8b013a9b9551459f921672c40efa6795" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_a81c6c769e16469a91c530d9c23e2af4.setContent(html_8b013a9b9551459f921672c40efa6795);
+            
+
+            marker_305148122ccc47fc91f08745ebca81c9.bindPopup(popup_a81c6c769e16469a91c530d9c23e2af4)
+            ;
+
+            
+        
+    
+        var marker_ebbf7efc18384946beec8fe686ff8fd5 = L.marker(
+            [28.676083, 77.09908399999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_3580d4579e5e4b77b4a3506ed37a110b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebbf7efc18384946beec8fe686ff8fd5.setIcon(icon_3580d4579e5e4b77b4a3506ed37a110b);
+            
+    
+            var popup_905c1a3781024b398bb402113b47c52f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0a2ebd778264a72825543bc419aa7df = $('<div id="html_f0a2ebd778264a72825543bc419aa7df" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Bhatia Global Hospital </div>')[0];
+                popup_905c1a3781024b398bb402113b47c52f.setContent(html_f0a2ebd778264a72825543bc419aa7df);
+            
+
+            marker_ebbf7efc18384946beec8fe686ff8fd5.bindPopup(popup_905c1a3781024b398bb402113b47c52f)
+            ;
+
+            
+        
+    
+        var marker_e0e3e57b35a043eab9c01f381be978ac = L.marker(
+            [28.662433, 77.090228],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_962f4072eb09476b8d34031dd6a2327c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e0e3e57b35a043eab9c01f381be978ac.setIcon(icon_962f4072eb09476b8d34031dd6a2327c);
+            
+    
+            var popup_7f09db4131cc4e2796478a144a288856 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6ee6ca0529dd4e42ada2d022d0d45a86 = $('<div id="html_6ee6ca0529dd4e42ada2d022d0d45a86" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_7f09db4131cc4e2796478a144a288856.setContent(html_6ee6ca0529dd4e42ada2d022d0d45a86);
+            
+
+            marker_e0e3e57b35a043eab9c01f381be978ac.bindPopup(popup_7f09db4131cc4e2796478a144a288856)
+            ;
+
+            
+        
+    
+        var marker_d06827c7610140e9a2622cc2856c2e5c = L.marker(
+            [28.665031, 77.010524],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_6e4659832b3744ee85de60a4bcf59566 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d06827c7610140e9a2622cc2856c2e5c.setIcon(icon_6e4659832b3744ee85de60a4bcf59566);
+            
+    
+            var popup_c8086716f4e647a19716d59f49cc4ada = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d910a620830d4824bad9c24ea8b677ad = $('<div id="html_d910a620830d4824bad9c24ea8b677ad" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_c8086716f4e647a19716d59f49cc4ada.setContent(html_d910a620830d4824bad9c24ea8b677ad);
+            
+
+            marker_d06827c7610140e9a2622cc2856c2e5c.bindPopup(popup_c8086716f4e647a19716d59f49cc4ada)
+            ;
+
+            
+        
+    
+        var marker_310dd5d9cb404b35957eca52994fc125 = L.marker(
+            [28.673127, 77.111944],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_21fc6de94e2c46aa9e6aa06ce5fdc2d6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_310dd5d9cb404b35957eca52994fc125.setIcon(icon_21fc6de94e2c46aa9e6aa06ce5fdc2d6);
+            
+    
+            var popup_92d471fec25c40e2b3ead967e5a7b9f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d5adf84102b41808f5dcfdd12eb204b = $('<div id="html_5d5adf84102b41808f5dcfdd12eb204b" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Bhatia Global Hospital </div>')[0];
+                popup_92d471fec25c40e2b3ead967e5a7b9f6.setContent(html_5d5adf84102b41808f5dcfdd12eb204b);
+            
+
+            marker_310dd5d9cb404b35957eca52994fc125.bindPopup(popup_92d471fec25c40e2b3ead967e5a7b9f6)
+            ;
+
+            
+        
+    
+        var marker_7ff50c091319498c91e1512facb58d1f = L.marker(
+            [28.673767, 77.084005],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_958b7a113c4c44ef95cf920772007089 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ff50c091319498c91e1512facb58d1f.setIcon(icon_958b7a113c4c44ef95cf920772007089);
+            
+    
+            var popup_0d15dd19c0574585ab35da8fdfe49215 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_774fe0d809544676881af4cf789f6a9d = $('<div id="html_774fe0d809544676881af4cf789f6a9d" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25946700 Nearest hospital : Bhatia Global Hospital </div>')[0];
+                popup_0d15dd19c0574585ab35da8fdfe49215.setContent(html_774fe0d809544676881af4cf789f6a9d);
+            
+
+            marker_7ff50c091319498c91e1512facb58d1f.bindPopup(popup_0d15dd19c0574585ab35da8fdfe49215)
+            ;
+
+            
+        
+    
+        var marker_7f6ae609c0d8420cb40cef7bd3fcd9ea = L.marker(
+            [28.666161, 77.087861],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_bf3d06789d354f53b6521a46ad566ab1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f6ae609c0d8420cb40cef7bd3fcd9ea.setIcon(icon_bf3d06789d354f53b6521a46ad566ab1);
+            
+    
+            var popup_f5b1a6686be74e9aad81146d48760005 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ba1e2f8119c645d7a9c76f5fca30ee86 = $('<div id="html_ba1e2f8119c645d7a9c76f5fca30ee86" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_f5b1a6686be74e9aad81146d48760005.setContent(html_ba1e2f8119c645d7a9c76f5fca30ee86);
+            
+
+            marker_7f6ae609c0d8420cb40cef7bd3fcd9ea.bindPopup(popup_f5b1a6686be74e9aad81146d48760005)
+            ;
+
+            
+        
+    
+        var marker_c13abe1852d4432da40a7a189207742b = L.marker(
+            [28.661416, 77.095807],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_69508c47853e440f8f8aa42a74acdd65 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c13abe1852d4432da40a7a189207742b.setIcon(icon_69508c47853e440f8f8aa42a74acdd65);
+            
+    
+            var popup_8671ff7d16684931af5f4c2102f1703d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c35fc1c270094573aa907079cd92fab7 = $('<div id="html_c35fc1c270094573aa907079cd92fab7" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_8671ff7d16684931af5f4c2102f1703d.setContent(html_c35fc1c270094573aa907079cd92fab7);
+            
+
+            marker_c13abe1852d4432da40a7a189207742b.bindPopup(popup_8671ff7d16684931af5f4c2102f1703d)
+            ;
+
+            
+        
+    
+        var marker_ef8e4d88352c4275aa8e0f9bddefd5aa = L.marker(
+            [28.669549, 77.110271],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_662c4a39d3474272bd00f8a6c8e11b6c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ef8e4d88352c4275aa8e0f9bddefd5aa.setIcon(icon_662c4a39d3474272bd00f8a6c8e11b6c);
+            
+    
+            var popup_f1de9521790e4afa91f0cbe1b7a4394f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_91feccff86764a50893f27b94f41650f = $('<div id="html_91feccff86764a50893f27b94f41650f" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_f1de9521790e4afa91f0cbe1b7a4394f.setContent(html_91feccff86764a50893f27b94f41650f);
+            
+
+            marker_ef8e4d88352c4275aa8e0f9bddefd5aa.bindPopup(popup_f1de9521790e4afa91f0cbe1b7a4394f)
+            ;
+
+            
+        
+    
+        var marker_f7d67af9e5f841be84d3261ba1a0f0a2 = L.marker(
+            [28.663035, 77.085379],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_59860d3fe36946cfb4bc4e7be0be6a9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f7d67af9e5f841be84d3261ba1a0f0a2.setIcon(icon_59860d3fe36946cfb4bc4e7be0be6a9b);
+            
+    
+            var popup_9fe2c557438440639153fde4de597f58 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f23331b232d145829ca18fda611eae83 = $('<div id="html_f23331b232d145829ca18fda611eae83" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25946700 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_9fe2c557438440639153fde4de597f58.setContent(html_f23331b232d145829ca18fda611eae83);
+            
+
+            marker_f7d67af9e5f841be84d3261ba1a0f0a2.bindPopup(popup_9fe2c557438440639153fde4de597f58)
+            ;
+
+            
+        
+    
+        var marker_ed9168de21c9445e9dfed3d2aefa9c85 = L.marker(
+            [28.672826, 77.100314],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_5a307070093245bc93dc90619940fb2f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed9168de21c9445e9dfed3d2aefa9c85.setIcon(icon_5a307070093245bc93dc90619940fb2f);
+            
+    
+            var popup_54fc823bdac645f98270e62baf7d79a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5df1f90cbdbd489c9cac9bbeecc15e95 = $('<div id="html_5df1f90cbdbd489c9cac9bbeecc15e95" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_54fc823bdac645f98270e62baf7d79a6.setContent(html_5df1f90cbdbd489c9cac9bbeecc15e95);
+            
+
+            marker_ed9168de21c9445e9dfed3d2aefa9c85.bindPopup(popup_54fc823bdac645f98270e62baf7d79a6)
+            ;
+
+            
+        
+    
+        var marker_acd3137feef448fdbb41dc6056fde6ed = L.marker(
+            [28.662132, 77.101729],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_9ded60b52c0d49c7bcbc31c274e0a0b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_acd3137feef448fdbb41dc6056fde6ed.setIcon(icon_9ded60b52c0d49c7bcbc31c274e0a0b5);
+            
+    
+            var popup_8da013e02e64432bb6942e2eb9de1570 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a38a38a43d3444c81228d3caf6b2a70 = $('<div id="html_2a38a38a43d3444c81228d3caf6b2a70" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_8da013e02e64432bb6942e2eb9de1570.setContent(html_2a38a38a43d3444c81228d3caf6b2a70);
+            
+
+            marker_acd3137feef448fdbb41dc6056fde6ed.bindPopup(popup_8da013e02e64432bb6942e2eb9de1570)
+            ;
+
+            
+        
+    
+        var marker_4e60e87386084f9f9eaff5c2b44e0084 = L.marker(
+            [28.665916, 77.089449],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_493a86c803a8454ebba442c7752498f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e60e87386084f9f9eaff5c2b44e0084.setIcon(icon_493a86c803a8454ebba442c7752498f6);
+            
+    
+            var popup_76b6fb8287e744b9a0e54808517bbad8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ab260bfe18d240ba991b3ae8511139e5 = $('<div id="html_ab260bfe18d240ba991b3ae8511139e5" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Bhatia Global Hospital </div>')[0];
+                popup_76b6fb8287e744b9a0e54808517bbad8.setContent(html_ab260bfe18d240ba991b3ae8511139e5);
+            
+
+            marker_4e60e87386084f9f9eaff5c2b44e0084.bindPopup(popup_76b6fb8287e744b9a0e54808517bbad8)
+            ;
+
+            
+        
+    
+        var marker_649455bb643745dab0c67d15caf05b35 = L.marker(
+            [28.676214, 77.103447],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_b8976259abc34bf6a05896adb130bced = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_649455bb643745dab0c67d15caf05b35.setIcon(icon_b8976259abc34bf6a05896adb130bced);
+            
+    
+            var popup_97ce0e323e9c4b299981e64a8e004a53 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f673bf38b3414028bb056a7aa712f1c3 = $('<div id="html_f673bf38b3414028bb056a7aa712f1c3" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_97ce0e323e9c4b299981e64a8e004a53.setContent(html_f673bf38b3414028bb056a7aa712f1c3);
+            
+
+            marker_649455bb643745dab0c67d15caf05b35.bindPopup(popup_97ce0e323e9c4b299981e64a8e004a53)
+            ;
+
+            
+        
+    
+        var marker_f1d290c73e6f4d46a0a9aa247eaee4c8 = L.marker(
+            [28.676294, 77.091526],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_975fbf20ae0c4c8990957f2027639148 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f1d290c73e6f4d46a0a9aa247eaee4c8.setIcon(icon_975fbf20ae0c4c8990957f2027639148);
+            
+    
+            var popup_b11aa1ab67614d229070b9e515424d3b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6391f967dc3d4a338a30c5139579da7c = $('<div id="html_6391f967dc3d4a338a30c5139579da7c" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Bhatia Global Hospital </div>')[0];
+                popup_b11aa1ab67614d229070b9e515424d3b.setContent(html_6391f967dc3d4a338a30c5139579da7c);
+            
+
+            marker_f1d290c73e6f4d46a0a9aa247eaee4c8.bindPopup(popup_b11aa1ab67614d229070b9e515424d3b)
+            ;
+
+            
+        
+    
+        var marker_037f2700d9cb4f5793cfe2d826b00b90 = L.marker(
+            [28.677837, 77.07809300000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_18fe02131419449885d4b7c3dfde3f94 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_037f2700d9cb4f5793cfe2d826b00b90.setIcon(icon_18fe02131419449885d4b7c3dfde3f94);
+            
+    
+            var popup_64db5c99e6254b268d5f44c60c5a3b85 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e135e4d2dec431591094912a2bd64cb = $('<div id="html_5e135e4d2dec431591094912a2bd64cb" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_64db5c99e6254b268d5f44c60c5a3b85.setContent(html_5e135e4d2dec431591094912a2bd64cb);
+            
+
+            marker_037f2700d9cb4f5793cfe2d826b00b90.bindPopup(popup_64db5c99e6254b268d5f44c60c5a3b85)
+            ;
+
+            
+        
+    
+        var marker_e67f9b295584400a8fd9d83cb84d7518 = L.marker(
+            [28.680252000000007, 77.08465600000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_e9c66529b7ae452badaadd7e22eed46e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e67f9b295584400a8fd9d83cb84d7518.setIcon(icon_e9c66529b7ae452badaadd7e22eed46e);
+            
+    
+            var popup_86502402287141e3adbc2cfa89270859 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_614077d7b67f4f7da194775ae51152d2 = $('<div id="html_614077d7b67f4f7da194775ae51152d2" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25263471 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_86502402287141e3adbc2cfa89270859.setContent(html_614077d7b67f4f7da194775ae51152d2);
+            
+
+            marker_e67f9b295584400a8fd9d83cb84d7518.bindPopup(popup_86502402287141e3adbc2cfa89270859)
+            ;
+
+            
+        
+    
+        var marker_7c511e04253545949ec68f454b11987c = L.marker(
+            [28.673418, 77.078691],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_670d5ad7337145219ba4a22862f8733e);
+        
+    
+
+                var icon_64252d0ef1304035a45f9b13b08e6441 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7c511e04253545949ec68f454b11987c.setIcon(icon_64252d0ef1304035a45f9b13b08e6441);
+            
+    
+            var popup_c519271f48734d63a0c6c82af47a1778 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b0c0d0ea5694f8199dd4424ceee5fc1 = $('<div id="html_8b0c0d0ea5694f8199dd4424ceee5fc1" style="width: 100.0%; height: 100.0%;"> Nearest Police helpline Number :25946700 Nearest hospital : Sehgal Neo Hospital </div>')[0];
+                popup_c519271f48734d63a0c6c82af47a1778.setContent(html_8b0c0d0ea5694f8199dd4424ceee5fc1);
+            
+
+            marker_7c511e04253545949ec68f454b11987c.bindPopup(popup_c519271f48734d63a0c6c82af47a1778)
+            ;
+
+            
+        
+    var tile_layer_7b5d6450ab2f4a8398ac1122aec84a42 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e01c6c379aa34a2ea9c5ef45d490f991);
+</script>
