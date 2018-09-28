@@ -38,4 +38,4 @@ for lt ,ln ,st,hn,hos, hosc, pol, ct in zip(lat,lon,stat,helpn,hosp,hospc,pols,c
 
 map.add_child(fg)
 folium.TileLayer('openstreetmap').add_to(map)
-map.save("Map2.html")
+map.save("index.html")
