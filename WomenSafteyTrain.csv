@@ -1,0 +1,96 @@
+Cities,Nearest Police Station,Helpline Number,District,Camera Survelliance,Crime Rate,Visibility ,Crowd,Public Transport,Distance To PCR,Unsafe
+Shakar Pur Baramad,Preet Vihar,2210291,East,NO,34.532,3,1178,14.23,13.345,0
+Chilla Saroda Khadar,Vivek Vihar,2146040,East,NO,38.912,6.21,11743,25.93,2.123,1
+Gharonda Neemka Bangar,Gandhi Nagar,2212761,East,NO,40.982,9.26,37876,57.23,12.563,0
+Kondli,Preet Vihar,2210291,East,YES,32.891,9.45,38207,56.85,12.123,0
+Chilla Saroda Bangar,Vivek Vihar,2146040,East,NO,36.707,11.62,83217,68.89,3.567,0
+Gharoli,Gandhi Nagar,2212761,East,NO,39.002,11.69,92540,70.03,2.645,0
+Dallo Pura,Gandhi Nagar,2212761,East,YES,38.979,11.8,154791,73.92,3.234,1
+Jharoda Majra Burari,Civil Lines,2522233,North,YES,32.232,8.24,22878,52.95,5.234,1
+Kamal Pur Majra Burari,Sadar Bazar,529792,North,NO,34.212,9.89,43086,54.95,4.223,1
+Mukand Pur,Sadar Bazar,529792,North,YES,33.312,11.39,57135,60.94,12.345,1
+Burari,Civil Lines,2522233,North,YES,30.098,11.76,146190,72.55,10.234,1
+Mukhmel Pur,Saraswati Vihar,7189996,North West,NO,35.212,3.67,4931,18.01,5.654,1
+Bankauli,Kingsway Camp,7231131,North West,YES,35.234,3.89,5339,20.12,6.832,0
+Lad Pur,Saraswati Vihar,7189996,North West,NO,36.987,4.01,5529,21.11,1.223,1
+Darya Pur Kalan,Ashok Vihar,7242917,North West,YES,38.726,4.67,6310,22.21,2.534,0
+Gheora,Ashok Vihar,7242917,North West,NO,35.982,5.12,6876,22.12,13.456,0
+Qutab Garh,Narela,7282804,North West,NO,40.981,5.34,7639,23.54,4.672,0
+Khera Kalan,Ashok Vihar,7242917,North West,NO,42.091,5.35,8252,24.55,9.234,0
+Bhor Garh,Ashok Vihar,7242917,North West,YES,37.287,5.67,8627,24.87,5.363,1
+Barwala,Kingsway Camp,7231131,North West,YES,35.012,5.78,8948,25.21,9.953,1
+Khera Khurd,Ashok Vihar,7242917,North West,NO,40.192,5.89,9777,25.19,5.243,0
+Kanjhawala,Ashok Vihar,7242917,North West,YES,41.019,5.81,10331,24.12,8.341,0
+Ibrahim Pur,Ashok Vihar,7242917,North West,NO,39.013,5.89,10614,25.29,7.345,0
+Pooth Khurd,Narela,7282804,North West,NO,42.018,6.12,10654,25.45,2.455,1
+Mubarak Pur Dabas,Saraswati Vihar,7189996,North West,NO,43.182,6.29,12043,25.15,1.992,1
+Bakhtawar Pur,Kingsway Camp,7231131,North West,NO,44.244,6.3,12716,30.22,2.544,1
+Tikri Khurd,Saraswati Vihar,7189996,North West,YES,35.045,6.23,13772,28.21,1.002,0
+Bankner,Kingsway Camp,7231131,North West,NO,38.194,6.39,14788,23.11,9.222,0
+Rani Khera,Narela,7282804,North West,YES,40.134,6.53,16402,32.15,5.778,0
+Mohammad Pur Majri,Saraswati Vihar,7189996,North West,YES,39.104,6.34,17462,40.91,10.111,1
+Qadi Pur,Narela,7282804,North West,YES,42.918,7.23,18369,45.97,2.783,0
+Ali Pur,Kingsway Camp,7231131,North West,NO,43.029,8,20332,42.71,1.001,0
+Pehlad Pur Bangar,Narela,7282804,North West,YES,38.405,8.27,22968,50.37,9.567,0
+Siras Pur,Saraswati Vihar,7189996,North West,NO,40.203,8.67,30445,54.62,2.012,0
+Karala,Ashok Vihar,7242917,North West,YES,35.104,9.13,35730,53.65,13.635,1
+Libas Pur,Saraswati Vihar,7189996,North West,NO,36.294,10.2,44375,58.93,2.009,0
+Nithari,Narela,7282804,North West,YES,36.104,10.78,50464,58.92,6.345,0
+Begum Pur,Kingsway Camp,7231131,North West,YES,39.044,11.92,53682,60.76,2.434,0
+Sahibabad Daulat Pur,Saraswati Vihar,7189996,North West,NO,44.245,11.23,54773,59.98,2.872,1
+Bawana,Kingsway Camp,7231131,North West,NO,38.294,11.57,73680,70.96,9.034,0
+Pooth Kalan,Narela,7282804,North West,NO,40.294,11.71,96002,72.23,9.643,0
+Sultan Pur Majra,Saraswati Vihar,7189996,North West,YES,39.485,11.92,181554,77.21,15.973,1
+Bhalswa Jahangir Pur,Kingsway Camp,7231131,North West,YES,42.452,11.9,197148,79.82,5.345,0
+Kirari Suleman Nagar,Ashok Vihar,7242917,North West,NO,44.999,12.02,283211,79.23,3.982,0
+Chandan Hola,Defence Colony,6253601,South,NO,45.542,4.9,6780,22.76,6.345,1
+Kotla Mahigiran,Hauz Khas,6867878,South,NO,45.193,5.28,7376,23.56,2.545,0
+Fateh Pur Beri,Greater Kailash,6429617,South,YES,58.728,5.77,8861,25.02,9.345,0
+Saidabad,Lajpat Nagar,6838945,South,YES,55.204,5.82,10168,26.11,1.343,0
+Jona Pur,Greater Kailash,6429617,South,NO,45.019,6.03,10635,25.31,7.345,0
+Maidan Garhi,Kalkaji,6430607,South,YES,51.024,6.17,11111,25.76,9.353,1
+Raj Pur Khurd,Hauz Khas,6867878,South,NO,48.245,6.2,11161,23.89,1.434,0
+Asola,Defence Colony,6253601,South,YES,59.104,6.12,13275,30.09,10.432,0
+Sultan Pur,Lajpat Nagar,6838945,South,NO,49.193,6.4,15160,34.64,3.545,0
+Neb Sarai,Kalkaji,6430607,South,NO,55.929,6.42,15640,33.12,9.344,1
+Dera Mandi,Greater Kailash,6429617,South,YES,53.134,6.54,16725,35.18,1.343,0
+Saidul Azaib,Lajpat Nagar,6838945,South,YES,55.245,6.78,17914,39.41,1.765,0
+Bhati,Defence Colony,6253601,South,NO,57.193,7.34,18864,46.91,8.554,1
+Aali,Defence Colony,6253601,South,NO,49.103,8.58,27169,55.55,4.567,1
+Aya Nagar,Defence Colony,6253601,South,YES,58.192,9.04,33123,55.92,8.536,1
+Chattar Pur,Defence Colony,6253601,South,NO,56.293,10.23,46776,57.89,5.786,1
+Tigri,Lajpat Nagar,6838945,South,NO,49.134,10.67,46974,59.98,6.424,0
+Jait Pur,Greater Kailash,6429617,South,NO,45.924,11.39,59330,65.92,8.234,0
+Taj Pul,Lajpat Nagar,6838945,South,YES,52.193,11.43,68796,68.93,4.675,1
+Pul Pehlad,Hauz Khas,6867878,South,YES,50.192,11.47,69657,64.88,7.433,0
+Mithe Pur,Kalkaji,6430607,South,NO,49.134,11.56,69837,67.93,3.656,1
+Molar Band,Kalkaji,6430607,South,YES,49.203,11.67,91402,71.33,7.345,0
+Deoli,Greater Kailash,6429617,South,YES,59.234,11.86,169122,74.58,9.245,1
+Kair,Najafgarh,5016200,South West,NO,58.987,3.23,4074,17.45,7.543,1
+Ujwa,Delhi Cantt.,3294444,South West,NO,55.098,3.25,4856,17.46,10.523,1
+Mitraon,Vasant Vihar,6109299,South West,YES,56.563,4.25,6512,22.56,4.675,0
+Jaffar Pur Kalan,Delhi Cantt.,3294444,South West,NO,56.875,4.88,6573,22.19,4.657,1
+Khera,Najafgarh,5016200,South West,NO,55.798,5.14,7220,23.16,4.637,0
+Chhawala,Delhi Cantt.,3294444,South West,YES,57.234,6.27,14662,24.18,6.243,0
+Ghitorni,Delhi Cantt.,3294444,South West,YES,55.453,6.37,14893,26.98,3.678,1
+Kusum Pur,Najafgarh,5016200,South West,NO,58.987,6.64,17028,36.91,7.345,0
+Sambhalka,Delhi Cantt.,3294444,South West,NO,57.243,6.66,17076,39.99,3.764,0
+Rajokri,Delhi Cantt.,3294444,South West,NO,58.265,7.56,19148,39.32,7.433,0
+Jharoda Kalan,Delhi Cantt.,3294444,South West,NO,55.143,7.99,19578,47.34,8.365,1
+Moradabad Pahari,Vasant Vihar,6109299,South West,NO,56.974,8.03,21502,49.53,5.345,0
+Malik Pur Kohi,Vasant Vihar,6109299,South West,YES,59.364,8.35,23726,51.59,3.655,0
+Dindar Pur,Delhi Cantt.,3294444,South West,YES,57.938,9.16,35856,55.87,4.756,0
+Nangli Sakrawati,Vasant Vihar,6109299,South West,NO,56.198,9.17,37706,55.93,6.865,0
+Roshan Pura,Delhi Cantt.,3294444,South West,YES,55.243,11.38,57217,61.34,9.546,0
+Kapas Hera,Najafgarh,5016200,South West,NO,59.132,11.59,74073,69.29,4.675,0
+Tilang Pur Kotla,Tilak Nagar,5409290,West,NO,39.087,6.2,13614,29.43,4.675,0
+Tikri Kalan,Tilak Nagar,5409290,West,YES,37.889,6.49,16313,33.97,1.456,0
+Bakkar Wala,Patel Nagar,5784034,West,NO,34.565,6.91,18122,42.33,3.967,0
+Raja Pur Khurd,Tilak Nagar,5409290,West,NO,38.706,7.67,19312,48.59,6.768,0
+Quammruddin Nagar,Punjabi Bagh,533260,West,YES,32.342,8.4,25126,52.97,6.768,1
+Shafi Pur Ranhola,Tilak Nagar,5409290,West,NO,37.898,8.89,31944,55.02,2.456,0
+Nilothi,Punjabi Bagh,533260,West,NO,34.561,10.13,43371,56.04,4.987,0
+Bapraula,Patel Nagar,5784034,West,YES,36.707,11.52,52744,56.93,4.869,1
+Mundka,Punjabi Bagh,533260,West,YES,32.231,11.27,54541,60.22,3.467,0
+Hastsal,Patel Nagar,5784034,West,YES,38.011,11.89,176877,75.23,6.345,0
+Nangloi Jat,Punjabi Bagh,533260,West,NO,33.372,12,205596,78.72,3.786,0
