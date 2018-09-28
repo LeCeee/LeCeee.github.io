@@ -1,4 +1,4 @@
-city,Latitude,Longitude,hospital,hospitalContact,policeStation,helplineNumber,district,cameraSurvelliance,crowd,publicTransport,distancetoPCRVan,Unsafe
+city,LAT,LON,hospital,hospitalContact,policeStation,helplineNumber,District,CameraSurvelliance,Crowd,PublicTransport,DistancetoPCRVan,UNSAFE
 Block C,28.674388,77.087626,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,945,23.42,4.754,0.0
 B3 Block,28.664371999999997,77.101573,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,973,20.75,3.7460000000000004,0.0
 A1 Block,28.676083000000002,77.09908399999999,Bhatia Global Hospital,25270702,Paschim Vihar Police Station,25263471,West,NO,984,22.76,4.543,0.0
@@ -18,3 +18,13 @@ Peera Garhi,28.676294,77.091526,Bhatia Global Hospital,25270702,Paschim Vihar Po
 Jwalapuri,28.677837,77.07809300000001,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,5645,40.42,3.5460000000000003,0.0
 Inder Enclave,28.680252000000003,77.08465600000001,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,6313,45.53,2.536,0.0
 PVC Market,28.673417999999998,77.078691,Sehgal Neo Hospital,45565656,Nihal Vihar Police Station,25946700,West,NO,7435,43.87,1.345,0.0
+Khayala,28.65748,77.098297,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,NO,5540,43.54,0.5670000000000001,0.0
+GH Block,28.665539000000003,77.086797,Bhatia Global Hospital,25270702,Paschim Vihar Police Station,25263471,West,YES,5603,39.09,2.786,1.0
+Block E,28.673368,77.113579,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,5798,44.32,3.764,0.0
+Madipur,28.670053000000003,77.120274,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,NO,1243,22.98,1.456,0.0
+"Aman Puri, Block B",28.667872999999997,77.065168,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,NO,1454,24.09,0.23399999999999999,0.0
+Block H,28.647840999999996,77.074267,Bhatia Global Hospital,25270702,Paschim Vihar Police Station,25263471,West,NO,1465,27.89,0.24,0.0
+Bodella District Park,28.650251,77.074696,Bhatia Global Hospital,25270702,Nihal Vihar Police Station,25946700,West,NO,2354,35.98,3.4560000000000004,0.0
+Naresh Park,28.67322,77.06551,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,978,23.57,4.897,0.0
+Jwalapuri,28.67789,77.078386,Sehgal Neo Hospital,45565656,Paschim Vihar Police Station,25263471,West,YES,965,20.84,3.918,0.0
+Ranjit Vihar,28.654845,77.060803,Bhatia Global Hospital,25270702,Paschim Vihar Police Station,25263471,West,NO,938,22.98,4.562,0.0
